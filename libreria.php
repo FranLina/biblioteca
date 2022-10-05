@@ -53,3 +53,62 @@
         return $this->fecha_publicacion;
     }
 }
+
+class Socio{
+
+    public $n_socio;
+    public $nombre;
+    public $apellidos;
+    public $telefono;
+    public $direccion;
+
+    function set_n_socio($n_socio)
+    {
+        $this->n_socio = $n_socio;
+    }
+
+    function get_n_socio()
+    {
+        return $this->n_socio;
+    }
+
+    function set_nombre($nombre)
+    {
+        $this->nombre = $nombre;
+    }
+
+    function get_nombre()
+    {
+        return $this->nombre;
+    }
+
+    function set_apellidos($apellidos)
+    {
+        $this->apellidos = $apellidos;
+    }
+
+    function get_apellidos()
+    {
+        return $this->apellidos;
+    }
+
+    function set_telefono($telefono)
+    {
+        $this->telefono = $telefono;
+    }
+
+    function get_telefono()
+    {
+        return $this->telefono;
+    }
+
+    function set_direccion($direccion)
+    {
+        $this->direccion = $direccion;
+    }
+
+    function get_direccion()
+    {
+        return $this->direccion;
+    }
+}
