@@ -13,6 +13,7 @@
     ?>
   </head>
   <body>
+    <h1>Bilioteca</h1>
     <form action="listadoLibros.php" method="post">
       <input type="submit" value="Libros" />
       <input type="submit" value="Socios" />
