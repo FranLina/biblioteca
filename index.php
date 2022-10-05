@@ -12,7 +12,7 @@
     $_SESSION['libros'] = $prueba;
     ?>
   </head>
-  <body>
+  <body style="background-color:#5FEB65;">
     <h1>Bilioteca</h1>
     <form action="listadoLibros.php" method="post">
       <input type="submit" value="Libros" />

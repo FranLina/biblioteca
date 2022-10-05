@@ -18,7 +18,8 @@
             $lib = new Libro();
             $lib = $libro;
             if ($lib->get_isbn() == $isbn) {
-                $string_html = "<form action='modificacionLibro.php' method='post'>";
+                $string_html = "<h1>Modificacion Libros</h1>"; 
+                $string_html .= "<form action='modificacionLibro.php' method='post'>";
                 $string_html .= "<label>Isbn: </label>";
                 $string_html .= "<input type='text' name='Isbn' value='" . $lib->get_isbn() . "'>
                 <br />";
@@ -41,7 +42,7 @@
     //}
     ?>
 </head>
-<body>
+<body style="background-color:#5FEB65;">
 </body>
 
 </html>

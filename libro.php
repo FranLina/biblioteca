@@ -8,7 +8,8 @@
     <title>Nuevo Libro</title>
 </head>
 
-<body>
+<body style="background-color:#5FEB65;">
+    <h1>Alta Libros</h1>
     <form action="altaLibro.php" method="post">
         <label>Isbn: </label>
         <input type="text" name="Isbn">
