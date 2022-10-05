@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Libro</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
     <?php
     include 'libreria.php';
     //if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -32,7 +33,7 @@
                 $string_html .= "<label>Fecha Publicación: </label>";
                 $string_html .= "<input type='text' name='Fecha_publicacion' value='" . $lib->get_fecha_publicacion() . "'>
                 <br />";
-                $string_html .= "<input type='submit' value='Editar' />";
+                $string_html .= "<input type='submit' value='Editar' class='botonEd'/>";
                 $string_html .= "</form>";
                 
                 echo $string_html;

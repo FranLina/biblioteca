@@ -1,0 +1,51 @@
+.boton {
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.boton:hover{
+    background-color: white; /* white */
+    color: #008CBA;
+}
+
+.botonBo {
+    background-color: red; /* red */
+    margin: 15px 0px 15px 15px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.botonBo:hover{
+    background-color: white; /* white */
+    color: red;
+}
+
+.botonEd {
+    background-color: rgb(114, 218, 16); /* green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.botonEd:hover{
+    background-color: white; /* green */
+    color: rgb(114, 218, 16);
+}
