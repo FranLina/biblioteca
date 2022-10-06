@@ -31,7 +31,8 @@
             echo "<td>" . $so->get_nombre() . "</td>";
             echo "<td>" . $so->get_apellidos() . "</td>";
             echo "<td>" . $so->get_telefono() . "</td>";
-            echo "<td><input class='botonEd' type='submit' formaction='/biblioteca/libro2.php?isbn=" . $lib->get_isbn() . "' value='Editar'><input class='botonBo' type='submit' value='Borrar' formaction='/biblioteca/borrarLibro.php?isbn=" . $lib->get_isbn() . "'></td>";
+            echo "<td>" . $so->get_direccion() . "</td>";
+            echo "<td><input class='botonEd' type='submit' formaction='/biblioteca/socio2.php?n_socio=" . $so->get_n_socio() . "' value='Editar'><input class='botonBo' type='submit' value='Borrar' formaction='/biblioteca/borrarSocio.php?n_socio=" . $so->get_n_socio() . "'></td>";
             echo "</tr>";
         }
     }
