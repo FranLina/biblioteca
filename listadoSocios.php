@@ -42,7 +42,7 @@
 
 </head>
 
-<body style="background-color:rgb(115, 37, 216);">
+<body style="background-color:rgb(150, 78, 245);">
 
 </body>
 
